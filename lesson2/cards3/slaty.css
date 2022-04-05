@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.main{
+    height: 700px;
+    background:darkgrey;
+}
+.block{
+    width: 600px;
+    height: 200px;
+    background:whitesmoke;
+    display: flex;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+.image{
+    font-size: 80px;
+    margin: 40px 10px;
+    color:silver;
+   }
+h1{
+    color: darkcyan;
+}
+.main{
+    display: flex;
+    justify-content:space-evenly;
+}
