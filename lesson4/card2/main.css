@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    flex-wrap: wrap;
+    }
+.a{
+    width: 100%;
+    height: 200px;
+    background: darkslategray;
+        }
+.main_wrap{
+    width: 100%;
+    display: flex;
+
+       }
+.wrap_two{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.b{
+    width: 100%;
+    height: 250px;
+    background: silver;
+
+}
+.cde{
+    display: flex;
+    height: 500px;
+            }
+.c,.d,.e{
+    width: 33.35%;
+    height:50%
+    background:burlywood;
+    border: 1px solid black;
+    }
+
+.f{
+    width: 25%;
+
+    background: cadetblue;
+    }
