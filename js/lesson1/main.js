@@ -111,11 +111,19 @@
 // console.log(typeof (c));
 
 
-// /*Last part*/
+// //!*Last part*!/
 //
 // let books = [
-// {name: 'Doctor Sleep', pages: 645, genre: 'Fantacy', autor:'Stephen King'},
-// {name: 'Sleeping Beauties', pages: 957, genre: 'Fantacy', autor:'Stephen King'}
+// {name: 'Doctor Sleep', pages: 645, genre: 'Fantasy', autor:'Stephen King'},
+// {name: 'Sleeping Beauties', pages: 957, genre: 'Fantasy', autor:'Stephen King'}
 // ]
 // console.log(books[0].name);
 // console.log(books[1].name);
+
+//
+// let fn = prompt('enter your first name');
+// let mn = prompt('enter your middle name');
+// let ln = prompt('enter your last name');
+// let person = `${fn} ${mn} ${ln}`;
+// console.log(person);
+
