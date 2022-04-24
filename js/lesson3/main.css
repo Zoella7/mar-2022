@@ -1,9 +1,19 @@
-.product-title{
-    margin-left: 50px;
-    font-family: Cambria, serif;
-    text-transform: capitalize}
+/*.product-title{*/
+/*    margin-left: 50px;*/
+/*    font-family: Cambria, serif;*/
+/*    text-transform: capitalize}*/
 
-.product-image{
-    height: 200px;
+/*.product-image{*/
+/*    height: 200px;*/
+
+/*}*/
+
+
+
+.user-block{
+    width: 400px;
+    height: 250px;
+    background: dimgray;
+
 
 }
