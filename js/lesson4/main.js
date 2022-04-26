@@ -105,11 +105,29 @@
 //
 //  date(usersList);
 
-
-// function sum(a, b, c) {
-//      return (a + b + c);
+// let numb = [3, 5, 2, 8, 9, 2, 4, -4];
+//
+//
+// function RRR(array) {
+//     let min = array[0];
+//     for (let item of array) {
+//         if( item < min){
+//            min=item;
+//         }
+//        
+//     }
+//     return min;
 // }
-// let result = sum(2, 3, 2);
+// let result =  RRR(numb);
 // console.log(result);
 
 
+function sum() {
+let result = 0;
+    for (let item of arguments) {
+        result = result + item;
+        
+    }
+    return result;
+}
+console.log(sum(33, 67, 50));
