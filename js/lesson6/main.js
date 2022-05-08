@@ -177,17 +177,92 @@
 // console.log(numbs.sort((a, b) => (a - b)));
 
 
-// - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень.
-//     відфільтрувати  його за допомоги filter, залишивши тільки парні числа (без 0!)
+// // - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень.
+// //     відфільтрувати  його за допомоги filter, залишивши тільки парні числа (без 0!)
+//
+// let numbs = [42, 87, 35, 18, 68, 84, 0, 42, 84, 56, 90, 83, 0, 40, 94, 90, 83, 25, 93, 22];
+// console.log(numbs.filter(value => (value % 2) ===0 && value !== 0));
 
-let numbs = [42, 87, 35, 18, 68, 84, 0, 42, 84, 56, 90, 83, 0, 40, 94, 90, 83, 25, 93, 22];
-console.log(numbs.filter(value => (value % 2) ===0 && value !== 0));
+// let courses = [
+//     {
+//         title: 'JavaScript Complex',
+//         monthDuration: 5,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
+//     },
+//     {
+//         title: 'Java Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'git',
+//             'java core',
+//             'java advanced']
+//     },
+//     {
+//         title: 'Python Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'python core',
+//             'python advanced']
+//     },
+//     {
+//         title: 'QA Complex',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
+//     },
+//     {
+//         title: 'FullStack',
+//         monthDuration: 7,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'react',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'git',
+//             'node.js',
+//             'python',
+//             'java']
+//     },
+//     {
+//         title: 'Frontend',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+//     }
+// ];
+// courses.
 
 
 
-
-
-
+// // відсортувати його в спадаючому порядку за кількістю елементів в полі modules
+//
+// // // - Напишіть функцію cutString(str, n), яка видаляє зайві слова з рядка str, залишивши у ній n слів.
+// let str = "Сила тяжести приложена к центру масс тела";
+// // console.log(str.split(' '));
+// // console.log(str.substring(5, 2));
+// console.log(str.split(' ').substrings(5, 2));
 
 
 
