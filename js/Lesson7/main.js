@@ -141,52 +141,52 @@
 //     car2.addDriver('olha')
 //     console.log(car2);
 
-// -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
-// Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
-//     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
-//     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
-
-class Singerella {
-    constructor(name, age, size) {
-        this.name=name
-        this.age=age
-        this.size=size
-    }
-}
-
-let girl1 = new Singerella('Kate', 27, 37)
-let girl2 = new Singerella('Anna', 23, 41)
-let girl3 = new Singerella('Ammanda', 21, 38)
-let girl4 = new Singerella('Olha', 44, 38)
-let girl5 = new Singerella('Ira', 76, 39)
-let girl6 = new Singerella('Maria', 33, 32)
-let girl7 = new Singerella('Ivanka', 22, 37)
-let girl8 = new Singerella('Hanna', 55, 34)
-let girl9 = new Singerella('Sasha', 65, 38)
-let girl10 = new Singerella('Sahra', 18, 36)
-
-let listOfgirls = [girl1, girl2,girl3,girl4, girl5,girl6,girl7, girl8, girl9, girl10 ]
-console.log(listOfgirls);
-
-class prince{
-    constructor(name, age, findshoe) {
-        this.name = name
-        this.age =age
-        this.findshoe =findshoe
-    }
-    }
-    let newprince = new prince('Henry', 32,32)
-
-let search = (listOfgirls, prince) =>{
-
-    for (let item of listOfgirls) {
-        if( item.size === prince.findshoe){
-            return `${item.name}`
-        }
-
-    }
-}
-
-console.log(search(listOfgirls, newprince));
-
-console.log(listOfgirls.find(value => value.size === newprince.findshoe));
+// // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
+// // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
+// //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
+// //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+//
+// class Singerella {
+//     constructor(name, age, size) {
+//         this.name=name
+//         this.age=age
+//         this.size=size
+//     }
+// }
+//
+// let girl1 = new Singerella('Kate', 27, 37)
+// let girl2 = new Singerella('Anna', 23, 41)
+// let girl3 = new Singerella('Ammanda', 21, 38)
+// let girl4 = new Singerella('Olha', 44, 38)
+// let girl5 = new Singerella('Ira', 76, 39)
+// let girl6 = new Singerella('Maria', 33, 32)
+// let girl7 = new Singerella('Ivanka', 22, 37)
+// let girl8 = new Singerella('Hanna', 55, 34)
+// let girl9 = new Singerella('Sasha', 65, 38)
+// let girl10 = new Singerella('Sahra', 18, 36)
+//
+// let listOfgirls = [girl1, girl2,girl3,girl4, girl5,girl6,girl7, girl8, girl9, girl10 ]
+// console.log(listOfgirls);
+//
+// class prince{
+//     constructor(name, age, findshoe) {
+//         this.name = name
+//         this.age =age
+//         this.findshoe =findshoe
+//     }
+//     }
+//     let newprince = new prince('Henry', 32,32)
+//
+// let search = (listOfgirls, prince) =>{
+//
+//     for (let item of listOfgirls) {
+//         if( item.size === prince.findshoe){
+//             return `${item.name}`
+//         }
+//
+//     }
+// }
+//
+// console.log(search(listOfgirls, newprince));
+//
+// console.log(listOfgirls.find(value => value.size === newprince.findshoe));
