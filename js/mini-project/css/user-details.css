@@ -1,0 +1,29 @@
+boby{
+    margin: 0;
+
+}
+
+#container{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: lightgray;
+
+
+}
+
+.userBox{
+    background: lightgray;
+    border: 1px solid dimgray;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.btn{
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+
+}
