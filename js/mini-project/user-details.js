@@ -37,23 +37,39 @@ details.forEach(detail => {
     let button = document.createElement('button')
     button.classList.add('btn')
     divDetail.append(button)
-    button.innerHTML = `<a href="post-details.html" style="text-decoration: none"> Post of current user</a>`
+    button.innerText = 'Post of current user'
     button.onclick = () => {
         fetch('https://jsonplaceholder.typicode.com/posts')
             .then(value => value.json())
             .then(value => {
                 for (let post of value) {
                     let postDiv = document.createElement('div')
-                    if (detail.id === post.id) {
+                    if (detail.id === post.userId) {
                         postDiv.innerHTML = `<p> title: ${post.title}</p>`
                     }
 
                     divDetail.appendChild(postDiv)
 
                     button.disabled = true;
+
+
+                    if (detail.id === post.userId) {
+                        innerBtn = document.createElement('button');
+                        postDiv.append(innerBtn);
+                        innerBtn.innerHTML = `<a href="post-details.html" style="text-decoration: none"> see more</a>`
+
+                    localStorage.setItem('key2', JSON.stringify([]));
+                    innerBtn.onclick = () => {
+                        const favorites = JSON.parse(localStorage.getItem('key2') || []);
+                        favorites.push(post);
+                        localStorage.setItem('key2', JSON.stringify(favorites));
+                        button.disabled = true;
+                    }
                 }
-            })
-}
+                    }
+                })
+            }
 })
+
 
 

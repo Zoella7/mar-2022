@@ -15,7 +15,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
             const button = document.createElement('button');
             button.setAttribute('class', 'btn');
-            button.innerText = 'Show more'
+            button.innerHTML = `<a href="user-details.html" style="text-decoration: none"> Post of current user</a>`
             userDiv.appendChild(button);
 
             button.onclick = () => {
